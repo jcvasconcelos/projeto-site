@@ -1,0 +1,38 @@
+--use db_jcvs2020
+
+--CREATE TABLE tbl_Materias (
+--ID_Materia SMALLINT PRIMARY KEY IDENTITY (100,1),
+--Nome_Materia VARCHAR (50) NOT NULL, 
+--ID_Professor SMALLINT NOT NULL, 
+--Data_Aula DATETIME NOT NULL UNIQUE,
+--Questoes VARCHAR(50)
+--Peso VARCHAR (30)
+--)
+
+--CREATE TABLE tbl_Professores (
+--ID_Professor SMALLINT PRIMARY KEY IDENTITY,
+--Nome_Professor VARCHAR (50) NOT NULL, 
+--Sobrenome_Professor VARCHAR (80) NOT NULL,
+--)
+
+
+/* CREATE TABLE tbl_Concursos (
+ID_Concurso SMALLINT PRIMARY KEY IDENTITY,
+Nome_Concurso  VARCHAR (50) NOT NULL, 
+Data_Prova DATETIME NOT NULL
+)
+*/
+
+
+/*
+CREATE TABLE tbl_Topicos (
+ID_Topico SMALLINT PRIMARY KEY IDENTITY,
+Nome_Topico  VARCHAR (50) NOT NULL, 
+Sub_Topico VARCHAR (80) NOT NULL,
+)
+*/
+
+--alter table tbl_Topicos
+--drop column Sub_Topico;
+
+--sp_help tbl_Topicos
